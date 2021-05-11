@@ -1,8 +1,8 @@
 version: '3.2'
 
 services:
-    pluginSubmitTest:
-        image: synbiohub/plugin-submit-shortbol:snapshot
+    pluginSubmitShortBOL:
+        image: plugin-submit-shortbol
         ports:
             - "8096:5000"
         dns: 8.8.8.8
