@@ -1,0 +1,9 @@
+version: '3.2'
+
+services:
+    pluginDownloadShortBOL:
+        image: plugin-download-shortbol
+        ports:
+            - "8097:5000"
+        dns: 8.8.8.8
+        restart: always
